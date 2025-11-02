@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/toolskins/monster/crossbow/crossbow_standby"
+	}
+}

@@ -1,0 +1,275 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:fishing_rod/cast",
+            "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/fishing_rod"
+            },
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/fishing_rod_cast"
+            }
+        },
+        "entries": [
+            {
+                "threshold": 50001,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/atlantis/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/atlantis/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50002,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/celestial/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/celestial/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50003,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/crimson/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/crimson/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50004,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/devil/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/devil/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50005,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/emerald/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/emerald/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50006,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/halloween/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/halloween/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50007,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/heaven/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/heaven/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50008,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/monster/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/monster/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50009,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/moon/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/moon/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50010,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/mud/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/mud/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50011,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/nether/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/nether/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50012,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/panther/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/panther/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50013,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/pegasus/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/pegasus/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50014,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/radiant/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/radiant/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50015,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/thunder/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/thunder/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50016,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/twilight/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/twilight/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            },
+            {
+                "threshold": 50017,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/warrior/fishing_rod/fishing_rod"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/toolskins/warrior/fishing_rod/fishing_rod_cast"
+                    }
+                }
+            }
+        ]
+    }
+}

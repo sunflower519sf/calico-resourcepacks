@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/toolskins/pegasus/fishing_rod/fishing_rod_cast"
+}
+}

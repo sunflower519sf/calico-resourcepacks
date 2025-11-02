@@ -1,0 +1,131 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_hoe"
+        },
+        "entries": [
+            {
+                "threshold": 50001,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/atlantis/hoe"
+                }
+            },
+            {
+                "threshold": 50002,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/celestial/hoe"
+                }
+            },
+            {
+                "threshold": 50003,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/crimson/hoe"
+                }
+            },
+            {
+                "threshold": 50004,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/devil/hoe"
+                }
+            },
+            {
+                "threshold": 50005,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/emerald/hoe"
+                }
+            },
+            {
+                "threshold": 50006,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/halloween/hoe"
+                }
+            },
+            {
+                "threshold": 50007,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/heaven/hoe"
+                }
+            },
+            {
+                "threshold": 50008,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/monster/hoe"
+                }
+            },
+            {
+                "threshold": 50009,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/moon/hoe"
+                }
+            },
+            {
+                "threshold": 50010,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/mud/hoe"
+                }
+            },
+            {
+                "threshold": 50011,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/nether/hoe"
+                }
+            },
+            {
+                "threshold": 50012,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/panther/hoe"
+                }
+            },
+            {
+                "threshold": 50013,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/pegasus/hoe"
+                }
+            },
+            {
+                "threshold": 50014,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/radiant/hoe"
+                }
+            },
+            {
+                "threshold": 50015,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/thunder/hoe"
+                }
+            },
+            {
+                "threshold": 50016,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/twilight/hoe"
+                }
+            },
+            {
+                "threshold": 50017,
+                "model": {
+                    "type": "model",
+                    "model": "item/toolskins/warrior/hoe"
+                }
+            }
+        ]
+    }
+}

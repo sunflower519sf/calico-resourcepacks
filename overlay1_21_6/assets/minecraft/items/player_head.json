@@ -1,0 +1,49 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "special",
+            "base": "item/template_skull",
+            "model": {
+                "type": "player_head"
+            }
+        },
+        "entries": [
+            {
+
+                "threshold": 1,
+                "model": {
+                    "type": "special",
+                    "base": "player_head_1",
+                    "model": {
+                        "type": "player_head"
+                    }
+                }
+            },
+            {
+
+                "threshold": 2,
+                "model": {
+                    "type": "special",
+                    "base": "player_head_2",
+                    "model": {
+                        "type": "player_head"
+                    }
+                }
+            },
+            {
+                "threshold": 1000000,
+                "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/template_skull",
+                    "model": {
+                        "type": "minecraft:head",
+                        "kind": "player"
+                    }
+                }
+            }
+        ]
+    }
+}

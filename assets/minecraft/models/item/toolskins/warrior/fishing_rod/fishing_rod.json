@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/toolskins/warrior/fishing_rod/fishing_rod"
+}
+}

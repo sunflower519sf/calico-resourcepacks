@@ -1,0 +1,14 @@
+{
+    "pack": {
+	"pack_format": 46,
+	"description": "calico.tw-resourcepacks-1.21.4+"
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "overlay1_21_6",
+                "formats": [56, 1000]
+            }
+        ]
+  }
+}
